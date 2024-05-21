@@ -1,5 +1,5 @@
 {% set name = "timer" %}
-{% set version = "0.2.2" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/timer-{{ version }}.tar.gz
-  sha256: d1ac1e50c4e14f26d424489ec470932715a454e96bef80a26bacc03cd92f5fff
+  sha256: 9b11b71a48648f878dc4c29aa84387806d193ed9f71a39e84edb10f38ed6941f
 
 build:
   noarch: python
